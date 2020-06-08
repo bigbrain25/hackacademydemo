@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#hack {
+    width: 200px;
+}
+.display {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+    position: sticky;
+}
+.fig a {
+    font-size: 12px;
+    padding: 10px 0 0 15px;
+    color: rgb(165,165,165);
+}
+a:hover {
+    color: black;
+}
+.pics {
+    background: url(./image/laptop\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: 50% 55%;
+}
+.text {
+    color: white;
+    text-transform: capitalize;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+button {
+    background: rgb(71,180,117);
+    width: 170px;
+    height: 50px;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+}
+button:hover {
+    color: black;
+    background: white;
+}
+.next {
+    padding: 20px 0 50px 0;
+    text-transform: uppercase;
+}
+.info h1 {
+    text-transform: uppercase;
+    padding: 100px 0 60px;
+    word-spacing: normal;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+.info h1:hover {
+    cursor: auto;
+}
+.icon {
+display: flex;
+justify-content: center;
+padding-bottom: 60px;
+}
+.image {
+    width: calc(100% / 4);
+    object-fit: scale-down;
+    height: 60px;
+    opacity: 0.6;
+}
+.icon img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.new {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248,248,248);
+}
+.reps img {
+    width: 330px;
+}
+.reps {
+    padding: 100px 0 100px 90px;
+    font-size: 0px;
+    margin-right: 1px;
+}
+.action {
+    margin: 200px 70px 10px;
+    padding-right: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.action p {
+    opacity: 0.4;
+    font-size: small;
+    padding-bottom: 20px;
+}
+.action h3 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+    opacity: 0.5;
+}
+.trouble {
+    background: rgb(248,248,248);
+    width: 150px;
+    height: 40px;
+    color: rgb(71,180,117);
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border: 2px solid rgb(71,180,117);
+    font-size: bold;
+}
+.trouble:hover {
+    color: white;
+    background: rgb(71,180,117);
+    cursor: pointer;
+}
+.plan {
+    display: flex;
+    justify-content: space-between;
+}
+.fly{
+    margin-left: 170px;
+}
+.fly h2 {
+    font-size: xx-large;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.fly p {
+    padding-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    opacity: 0.7;
+}
+.fly h5 {
+    padding-left: 59px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    
+}
+.view {
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 89px;
+    margin-bottom: 45px;
+    background: rgb(71,180,117);
+    margin-right: 150px;
+    
+}
+.up {
+    padding: 40px 0px 7px 0px;
+    font-size: 15px;
+}
+.down{
+    padding: 0px 0px 3px 0px;
+    font-size: 90px;
+    font-weight: 200;
+}
+.find {
+    padding: 0px 0px 20px 0px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.view button {
+    background: rgb(71,180,117);
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px 30px;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    font-size: bold;
+}
+.view button:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.view a {
+  font-size: smaller;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+.town {
+    padding-top: 10px;
+    font-size: smaller;
+}
+.quick {
+    background-image: url(./image/app2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: 50% 55%;
+    text-align: center;
+}
+.run img {
+    margin: 60px 10px 30px 10px;
+    width: 60px;
+}
+.stop {
+    opacity: 0.9;
+}
+.stop h3 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 40px;   
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.stop p {
+color: white;
+font-size: medium;
+padding-bottom: 20px;
+letter-spacing: 1px;
+word-spacing: 1px;
+font-weight: lighter;
+text-transform: capitalize;
+line-height: 20px;
+}
+.stop h5 {
+color: white;
+font-size: small;
+margin-bottom: 0px;
+letter-spacing: 1px;
+word-spacing: 1px;
+font-weight: bold;
+text-transform: capitalize;
+}
+.stop h6 {
+color: white;
+font-size: smaller;
+padding-bottom: 40px;
+word-spacing: 1px;
+font-weight: lighter;
+text-transform: capitalize;
+}
+.even {
+    height: 200px;
+}
+.even h2 {
+text-align: center;
+font-weight: lighter;
+margin-top: 50px;
+margin-bottom: 30px;
+letter-spacing: 1px;
+}
+.even p {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+.join {
+display: flex;
+justify-content: space-around;
+}
+.join h3 {
+    opacity: 0.7;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+}
+.join p {
+    opacity: 0.8;
+    font-size: small;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    word-spacing: 1px;
+    line-height: 25px;
+    text-align: left;
+}
+.rude {
+text-align: center;    
+padding-bottom: 30px;
+}
+.rude h3 {
+    font-size: 40px;
+    font-weight: lighter;
+    word-spacing: 1px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.rude p {
+    font-weight: lighter;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+.rude button {
+    background: rgb(71,180,117);
+    width: 200px;
+    height: 50px;
+    color: white;
+    padding: 6px 30px;
+    margin-bottom: 30px;
+    font-size: bold;    
+}
+.rude button:hover {
+    cursor: pointer;
+}
+.none {
+    display: flex;
+    justify-content: space-between;
+}
+.time {
+    margin-top: 100px;
+    margin-right: 140px;
+    margin-left: 60px;
+    padding-left: 20px;
+}
+.wicked img {
+    width: 650px;
+    height: 600px;
+    padding-bottom: 0px;
+}
+.time h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+.time p {
+    font-weight: lighter;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+    opacity: 0.6;
+    font-size: small;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.time h6 {
+    font-size: small;
+    font-weight: bold;
+    word-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 9px;
+    opacity: 0.6;
+}
+.end {
+    text-align: center;
+    background: rgb(41,41,41);
+    height: 300px;
+}
+.end img {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    width: 50px;
+    opacity: 0.7;
+}
+.end p {
+    color: rgb(175, 175, 175);
+}
